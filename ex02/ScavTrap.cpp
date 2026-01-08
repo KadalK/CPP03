@@ -42,17 +42,6 @@ void	ScavTrap::attack(const std::string& target) {
 	this->_energy--;
 }
 
-ClapTrap& ClapTrap::operator=(const ClapTrap& rhs)
-{
-	if (this != &rhs)
-	{
-		this->_hit = rhs._hit;
-		this->_attack = rhs._attack;
-		this->_energy = rhs._energy;
-		this->_name = rhs._name;
-	}
-	return *this;
-}
 
 void	ScavTrap::guardGate() {
 	std::cout << "Gate keeper !" << std::endl;
