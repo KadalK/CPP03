@@ -8,14 +8,12 @@ ScavTrap::ScavTrap() : ClapTrap() {
 	this->_attack = 20;
 }
 
-
 ScavTrap::ScavTrap(std::string name) : ClapTrap(name) {
 	std::cout << "Scavtrap Assignement Constructor called" << std::endl;
 	this->_hit = 100;
 	this->_energy = 50;
 	this->_attack = 20;
 }
-
 
 ScavTrap::ScavTrap(const ScavTrap& obj) : ClapTrap(obj) {
 	std::cout << "Scavtrap Copy Constructor called" << std::endl;
@@ -41,7 +39,6 @@ void	ScavTrap::attack(const std::string& target) {
 	std::cout << "Scavtrap " << this->_name << " attacks " << target << " causing " << this->_attack << " points of damage!" << std::endl;
 	this->_energy--;
 }
-
 
 void	ScavTrap::guardGate() {
 	std::cout << "Gate keeper !" << std::endl;
