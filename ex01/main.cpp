@@ -12,7 +12,7 @@ int main()
 	Sunny.beRepaired(5);
 
 //Scavtrap tests
-	Lopez.attack("Dead asshole");
+	Lopez.attack("******* de ses morts");
 	Lopez.takeDamage(5);
 	Lopez.beRepaired(5);
 	Lopez.guardGate();
