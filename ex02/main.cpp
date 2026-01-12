@@ -24,6 +24,5 @@ int main()
 	Fabish.attack("The fridge");
 	Fabish.takeDamage(5);
 	Fabish.beRepaired(5);
-	Fabish.guardGate();
 	Fabish.highFivesGuys();
 }

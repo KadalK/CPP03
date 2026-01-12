@@ -3,10 +3,9 @@
 
 #include <iostream>
 #include "ClapTrap.hpp"
-#include "ScavTrap.hpp"
 #include <cstdlib>
 
-class FragTrap : public ScavTrap {
+class FragTrap : public ClapTrap {
 public:
 	FragTrap();
 	FragTrap(std::string name);

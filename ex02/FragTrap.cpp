@@ -7,14 +7,14 @@ FragTrap::FragTrap() {
 	_attack = 30;
 }
 
-FragTrap::FragTrap(std::string name) : ScavTrap(name) {
+FragTrap::FragTrap(std::string name) : ClapTrap(name) {
 	std::cout << "FragTrap Assignement Constructor called" << std::endl;
 	_hit = 100;
 	_energy = 100;
 	_attack = 30;
 }
 
-FragTrap::FragTrap(const FragTrap& obj) : ScavTrap(obj) {
+FragTrap::FragTrap(const FragTrap& obj) : ClapTrap(obj) {
 	std::cout << "FragTrap Copy Constructor called" << std::endl;
 	this->_hit = obj._hit;
 	this->_attack = obj._attack;
